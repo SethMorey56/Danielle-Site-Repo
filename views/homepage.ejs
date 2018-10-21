@@ -4,52 +4,135 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <style>
+
+    nav {
+      height: 5vh;
+      font-family: 'Playfair Display SC', serif;
+      font-size: 20px;
+    }
+
+    .navbar-nav > li{
+      padding-left:30px;
+      padding-right:30px;
+    }
+
+    .tranparent {
+      background-color: transparent;
+    }
+
+    .nav-text-color {
+      color: #1a1d14;
+      font-weight: bold;
+    }
+
+   .top-container {
+      height: 65vh;
+      background-image: url(https://cdn.pixabay.com/photo/2015/09/09/16/17/mountain-lake-931726_1280.jpg);
+      background-size: cover;
+      background-position: center center;
+   }
+
+   .jumbotron {
+     background-color: transparent;
+   }
+
+   h2 p {
+    font-family: 'Comfortaa', cursive;
+   }
+
+   .halves {
+     text-align: center;
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-top: 5%;
+   }
+
+   .thebigwrapper {
+     background-color: #9cd0de;
+     color: #0D1321
+   }
+
+   .bottom-content {
+     text-align: center;
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-bottom: 5%;
+   }
+   
+  </style>
   <title></title>
 </head>
 
 <body>
   <header>
+    <div class="top-container">
 
-    <nav class="navbar navbar-dark bg-primary col-12">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+          <nav class="navbar transparent navbar-expand-lg">
+              <a class="navbar-brand nav-text-color" href="#">Welcome</a>
+              <div class="navbar" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link nav-text-color" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-text-color" href="#">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-text-color" href="#">Specialties</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link nav-text-color" href="#">Forms</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
-    <h1> TopNav </h1>
-
-    <div>
-      something
+          <div class="jumbotron">
+          <!-- <h1 class="display-4">This is a jumbotron</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+          </div>
     </div>
 
-    <div class="">
-      something the second
+  </header>
+<div class="thebigwrapper">
+  <div class="row halves">
+    <div class="col-6">
+        <h2>You Are Not Alone</h2>
+        <p>
+            Every person has experienced pain at one time or another.  The kind that brings us to the end of us. The kind that takes our breath from our bodies, leaves us sick in our soul, and brings us to our knees.  It is the kind that leaves us dazed an unsure of what to do next.  It is in this pain that we reach out for another.  When we finally say " I cannot go it alone." It is in this place the true connection is created.        </p>
+        <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam laboriosam beatae cumque fugit magnam dolorum vitae saepe voluptate dolore dicta adipisci voluptatibus inventore, corrupti tempore iste nulla modi, ratione natus!
+        </p>
     </div>
 
-    <div class="">
-      something III
+    <div class="col-6 halves">
+        <h2>The Power of Vulnerability</h2>
+          <p>
+            <div>
+              <iframe class="iframe-container" width="560" height="315" src="https://www.youtube.com/embed/X4Qm9cGRub0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </p>
+          <p>
+              Dr. Brené Brown is a researcher professor at the University of Houston, Graduate College of Social Work, where she has spent the past ten years studying a concept that she calls Wholeheartedness. She has written a plethora of books, and is a leading expert in the field.          </p>
     </div>
+  </div>
 
-    <header />
+  <div class="bottom-content">
+    <h2>
+      Content
+    </h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea cupiditate, facere repudiandae quidem hic necessitatibus quas numquam perferendis odit. Ducimus in quasi recusandae! Accusantium eum architecto sit facilis nemo quibusdam?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum praesentium tenetur quam exercitationem dignissimos fuga nemo pariatur esse. Consectetur ex animi asperiores itaque magni perferendis. Corrupti cumque natus ipsum.
+    </p>
+  </div>
+
+   <p>&copy; Danielle Cutrer, Licensed Professsional Counselor. All rights reserved.</p>
+
 </body>
 
 </html>

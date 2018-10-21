@@ -11,8 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.2",
+    "express": "^4.16.4",
     "knex": "^0.13.0",
     "pg": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
