@@ -7,7 +7,7 @@
   <style>
 
   form {
-      border-style: solid;
+      /* border-style: solid; */
       border-width: 2px;
       text-align: center;
       height: 33.3%;
@@ -15,7 +15,16 @@
   }
 
   .login-container {
-      align-items: center;
+    align-items: center;
+  }
+
+  .btn-primary {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  h1 {
+      text-align: center;
   }
 
   </style>
@@ -23,7 +32,9 @@
 
 <body>
 
-    <div login-container>
+    <h1>Welcome, Thank You</h1>
+
+    <div class="login-container d-flex justify-content-center">
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
@@ -33,7 +44,7 @@
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" class="btn btn-primary">Login</button>
         </form>
     </div>
 </body>
